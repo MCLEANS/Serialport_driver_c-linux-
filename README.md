@@ -23,3 +23,6 @@ The constructor of the class takes in the "serial_port name" e.g /dev/ttyS90
 As indicated above to get the data after making an object of the Serial_com class we use the read_serial() method which returns a string of the data received
 
 The serial port connection is automatically closed in the destructor when the object goes out of scope
+
+## Pending
+1.  Ability to write to other serial devices
